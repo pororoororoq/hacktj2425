@@ -1,0 +1,17 @@
+// lib/assets/data/badges.dart
+
+class Badge {
+  final int xpThreshold;
+  final String imagePath;
+  final String name;
+
+  Badge(this.xpThreshold, this.imagePath, this.name);
+}
+
+final List<Badge> allBadges = [
+  Badge(100, 'assets/images/badges/badge1.png', 'Recycling Novice'),
+  Badge(200, 'assets/images/badges/badge2.png', 'Eco Warrior'),
+  Badge(300, 'assets/images/badges/badge3.png', 'Green Guardian'),
+  Badge(400, 'assets/images/badges/badge4.png', 'Planet Protector'),
+  Badge(500, 'assets/images/badges/badge5.png', 'Zero Waste Hero'),
+];
